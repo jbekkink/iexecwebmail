@@ -40,7 +40,7 @@ const bellecour = {
 export default function App({ Component, pageProps }: AppProps) {
 
   const chains = [bellecour];
-  const projectId = '4795e0b8df89780dea5f3821d7279eef'
+  const projectId = ADD_PROJECT_ID_HERE
 
   const { publicClient } = configureChains(chains, [w3mProvider({ projectId })]);
   const wagmiConfig = createConfig({

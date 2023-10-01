@@ -9,7 +9,7 @@ import EmailWindow from './EmailWindow';
 
 
 const settings = {
-    apiKey: "e8Zd0rYxWdv1ArkFNln6uOC1Xlk74zLF", // Replace with your Alchemy API Key.
+    apiKey: ADD_YOUR_KEY_HERE, // Replace with your Alchemy API Key.
     network: Network.ETH_MAINNET, // Replace with your network.
   };
 const SendEmail = (props) => {
